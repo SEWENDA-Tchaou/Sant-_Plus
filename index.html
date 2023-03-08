@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Santé plus</title>
+</head>
+<body>
+<!-- navbar -->
+
+    <nav class="fixed z-20  h-[100px] top-0 left-0 bg-white w-full shadow">
+        <div class="contact bg-[#149B7D] flex justify-center">
+            <li class="text-3xl mx-5  my-1 "><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li class="text-3xl mx-5 my-1"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="text-3xl mx-5 my-1"><a href=""><i class="fa-solid fa-phone"></i></a></li>
+        </div>
+        <div class="container m-auto flex justify-between items-center text-gray-700">
+            <div class="logo flex">
+                <img src="./assets/images/esjLogo.png" class="img_logo w-20 m-1" alt="">
+                <p class="nom_entreprise text-[#149B7D] text-[30px] font-[600]">ESJ Santé Plus</p>
+            </div>
+            
+
+            <ul class="hidden md:flex items-center text-base font-semibold cursor-pointer ">
+
+                <li class="m-3    hover:underline  "><a href="#acceuil"  class="  sm:text-[15px] lg:text-[30px] text-black font-[500]  ">Acceuil</a></li>
+                <li class="m-3   hover:underline"><a href="#propos"  class=" sm:text-15px] lg:text-[30px] text-black font-[500] ">A propos</a></li>
+                <li class="m-3   hover:underline"><a href="#produits_id" class=" sm:text-15px] lg:text-[30px] text-black font-[500] ">Nos produits</a></li>
+                <li class="boutton_menu m-3 bg-[#069205] text-[#fff] font-[500]  mr-10"> <a href="" >Contacts</a> </li>
+            </ul>
+
+            <button class="block md:hidden py-2 px-2 rounded  hover:bg-gray-200 group mr-2">
+                <div class="w-5 h-1 bg-black mb-1"></div>
+                <div class="w-5 h-1 bg-black mb-1"></div>
+                <div class="w-5 h-1 bg-black"></div>
+
+                <div class="absolute  -right-full h-screen w-8/12  border  bg-green-200 opacity-50 group-focus:right-0 group-focus:opacity-100 transition-all duration-300 " style="top: 100px">
+                    
+                    <ul class="flex flex-col items-center w-full m-4 text-base cursor-pointer">
+                        <li class="m-3    hover:underline  "><a href="#acceuil"  class="text-[30px] text-black font-[500]">Acceuil</a></li>
+                        <li class="m-3   hover:underline"><a href="#propos"  class=" text-[30px] text-black font-[500]">A propos</a></li>
+                        <li class="m-3   hover:underline"><a href="#produits_id" class=" text-[30px] text-black font-[500]">Nos produits</a></li>
+                        <li class="boutton_menu m-3 bg-[#069205] text-[#fff] font-[500]"> <a href="" >Contacts</a> </li>
+
+                    </ul>
+                </div>
+
+            </button>
+        </div>
+    </nav>
+
+    <!-- page d'acceuille -->
+
+    <div class="image_page_acceuille  md:w-full md:block " id="Acceuil">
+        <div class="background_acceuil">
+            <div class="text_acceuil md:w-full">
+                <h1 class="text-[40px] pl-[40px] md:pl-[70px] pt-[190px] md:text-[70px]  font-[700] text-[#fff]">Lorem, ipsum dolor sit !</h1> <br><br>
+
+                <p class=" pl-[40px] md:pl-[70px]  text-[#fff] font-[400]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, esse . amet consectetur adipisicing</p>
+            </div> <br>
+            <div class="boutton_contact pl-[40px] md:pl-[70px] ">
+                <a href="" class="get_start text-[#149B7D] bg-[#fff] font-[600] p-3">GET START</a>
+                <a href="" class="boutton_menu bg-[#069205] text-[#fff] font-[600] p-3">CONTACTS</a>
+            </div>
+        </div>
+        
+    </div> 
+    
+
+    <!-- premiers cards -->
+
+    <div id="propos">
+        <h2 class="text-center m-5 text-[#069205] font-[700] text-[30px]">Lorem, ipsum dolor sit amet consectetur elit</h2>
+    
+        <div class="max-md:flex-wrap trois_cards grid-cols-3 gap-4 mt-[30px] mb-[30px]">
+            <div class="sm:1/2 lg: 1/3 cards_1 w-[325px] h-[300px]  ">
+                <div class="background_cards bg-[#03886771] w-281 ">
+                    <div class="sss flex">
+                        <img src="./assets/images/Sante_au_masculin.jpg" class="w-[20px] h-[20px]" alt="">
+                        <p class="text-[#fff] p-5 max-md:p-0 font-[700]">Lorem, ipsum dolor sit amet consectetur elit</p>  <br class="max-lg:hidden"><br class="max-lg:hidden">
+                   </div>
+                   <h5 class="text-[#fff] p-5">Lorem, ipsum dolor sit amet consectetur elit</h5>
+                </div>
+            </div>
+
+            <div class=" sm:1/2 lg: 1/3 cards_2 w-[325px] h-[300px] bg-[#149B7D] mx-[40px]">
+                <div class="background_cards bg-[#03886771] w-281  ">
+                    <div class="sss flex">
+                        <img src="./assets/images/" class="w-[20px] h-[20px]" alt="">
+                        <p class="text-[#fff] p-5 font-[700]">Lorem, ipsum dolor sit amet consectetur elit</p>  <br><br>
+                   </div>
+                   <h5 class="text-[#fff] p-5">Lorem, ipsum dolor sit amet consectetur elit</h5>
+                </div>
+            </div>
+
+            <div class="sm:1/2 lg: 1/3 cards_3 w-[325px] h-[300px] bg-[#149B7D]">
+                <div class="background_cards bg-[#03886771] w-281  ">
+                    <div class="sss flex">
+                        <img src="./assets/images/Sante_au_masculin.jpg" class="w-[20px] h-[20px] " alt="">
+                        <p class="text-[#fff] p-5 font-[700]">Lorem, ipsum dolor sit amet consectetur elit</p>  <br><br>
+                   </div>
+                   <h5 class="text-[#fff] p-5">Lorem, ipsum dolor sit amet consectetur elit</h5>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+
+    <!-- produits -->
+    <div class="produits bg-[#12C698]" id="produits_id">
+
+        <div class="ee flex flex-wrap mx-[2%]">
+          <div class="gg pb-[30px] mx-[%] "></div>
+                <div class="autres_produits  md: flex mx-[2%] ">
+                    <div class=" sm:1/2 ">
+                        <div class="premier_produits flex">
+                            <div class="vvvv_1 flex bg-[#fff] max-md:w-[100%]  my-10 xl:w-[650px] h-[350px] ">
+                                <div class="tt m-[30px]"> 
+                                    <h2 class="text-[#149B7D] ml-[12px] text-3xl">Lorem ipsum </h2> <br> <br>
+                                    <p class="text-[#149B7D]">Lorem ipsum, dolor sit amet ostrum ullam harum enim soluta nesciunt sequi odit consequuntur, </p> <br> <br>
+                                    <a href="" class="boutton_menu bg-[#069205] text-[#fff]">Autres Produits</a>
+                                </div> 
+
+                                <div class="ZZZ_2 ">
+                                    <img src="./assets/images/microscope_1.png"  class="microscope w-[300px] h-[250px] mt-[30px] mr-[30px]" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="  sm:1/2 max-sm:ml-[38px] max-lg:hidden min-md:ml-[150px] sm:my-[10px] lg:ml-[70px] lg:my-[40px]">
+                        <div class="vvvv_2 w-[350px] w-sm md:w-[400px] h-[350px]  bg-[#fff]">
+                            <img src="./assets/images/cardiogram.png" class="cardio w-[250px] h-[270px] mx-8" alt="">
+
+                            <p class="text-[#149B7D] px-10 text-2xl">Lorem ipsum, dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="flex-wrap trois_cards grid-cols-3 gap-4 mt-[20px] pb-[40px]">
+                <div class="sm:1/2 lg: 1/3  w-[325px] h-[300px]  bg-[#fff] py-[20px] px-[40px] rounded-[10px] ">
+                    <img src="./assets/images/chaise_roulant.png" class="dd   " alt=""> <br>
+                    <p class="text-[#149B7D] px-1 text-2xl">Lorem ipsum, dolor sit</p>
+                </div>
+                <div class="sm:1/2 lg: 1/3  w-[325px] h-[300px]  bg-[#fff] mx-[30px] py-[20px] px-[40px] rounded-[10px] ">
+                    <img src="./assets/images/materiel_medical.png"  class="dd  "  alt=""> <br> <br>
+                    <p class="text-[#149B7D] px-2 text-2xl">Lorem ipsum, dolor sit</p>
+                </div>
+                <div class="sm:1/2 lg: 1/3  w-[325px] h-[300px]  bg-[#fff] m-[] py-[20px] px-[40px] rounded-[10px] ">
+                    <img src="./assets/images/croix_vert.png" class="dd   " alt=""> <br>
+                    <p class="text-[#149B7D] px-2 text-2xl">Lorem ipsum, dolor sit</p>
+                </div>
+            </div>
+   
+            <!-- <div class="ee max-sm:ml-[38px] justify-center justify-around mx-[70px] flex flex-wrap">
+                <div class="  sm:1/2 lg: 1/3 sm: my-[30px] md: mr-[50px]">
+                    <div class="cv bg-[#fff] w-[300px] h-[300px] px-5 py-3">
+                        <img src="./assets/images/chaise_roulant.png" class="dd   " alt=""> <br>
+                        <p class="text-[#149B7D] px-1 text-2xl">Lorem ipsum, dolor sit</p>
+                    </div>
+                </div>
+    
+                <div class="  sm:1/2 lg: 1/3 sm: ml-[10px] sm: my-[30px] md: mx-[50px]">
+                    <div class="cv_ bg-[#fff] w-[300px] h-[300px]    py-0 py-sm md:py-5 md:px-5">
+                        <img src="./assets/images/materiel_medical.png"  class="dd  "  alt=""> <br> <br>
+                        <p class="text-[#149B7D] px-5 text-2xl">Lorem ipsum, dolor sit</p>
+                    </div>
+                </div>
+    
+                <div class="   sm:1/2 lg: 1/3  sm: my-[30px]">
+                    <div class="cv bg-[#fff] w-[300px] h-[300px] mb-[30px] px-8 py-5 ">
+                        <img src="./assets/images/croix_vert.png" class="dd   " alt=""> <br>
+                        <p class="text-[#149B7D] px-2 text-2xl">Lorem ipsum, dolor sit</p>
+                    </div>
+                </div>
+            </div> -->
+           
+        </div>
+    </div>
+   
+
+
+    <!-- newsletter et autres -->
+
+    <div class="info_supplementaire  py-[20px] px-[5%]">
+        <div  class="vg flex flex-wrap ">
+           <div class="n_1   sm:1/2 lg: 1/3">
+                <div class="logo_nom_entreprise flex">
+                    <img src="./assets/images/esjLogo.png" class="img_logo w-20" alt="">
+
+                    <div class="">
+                        <p class="nom_entreprise  text-[#149B7D] text-[30px]">ESJ Santé Plus</p>
+                    </div> 
+                </div><br> <br>
+                <div class="">
+                    <p class="localisation  text-[#149B7D] md: text-[30px] font-[400]">consectetur adipisicing elit. Odio aliquid </p>
+                </div> <br>
+                <div class="flex">
+                    <div class="">
+                        <i class="fa-solid fa-location-dot text-3xl m-3"></i>
+                    </div>
+
+                    <div class="">
+                    <p class="localisation  md: text-[30px] font-[400]">consectetur adipisicing elit. Odio aliquid </p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="">
+                        <i class="fa-solid fa-phone text-3xl m-3"></i>
+                    </div>
+
+                    <div class="">
+                        <p class="localisation text-[30px] font-[400]">+ 229 xx-xx-xx-xx</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-regular fa-envelope text-3xl m-3"></i>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div>
+                        <i class="fa-regular fa-envelope text-3xl m-3"></i>
+                    </div>
+
+                    <div class="">
+                        <p class="localisation text-[30px] font-[400]">contact@santéplus.com</p>
+                    </div>
+                </div>
+            </div> <br>
+
+           <div class="n_1   sm:1/2 lg: 1/3 px-20">
+                <div class="n_2">
+                    <p class="text-[#069205] text-2xl">Liens éssentiels</p> <br><br>
+                    <p class="text-[30px] font-[400]">Acceuil</p> <br><br>
+                    <p class="text-[30px] font-[400]">A propos</p> <br><br>
+                    <p class="text-[30px] font-[400]"> Nos produits</p>
+                </div>
+            </div>
+
+            <div class="n_1   sm:1/2 lg: 1/3">
+
+                <div class="n_3">
+                    <p class="text-[#069205] text-2xl">News letters</p><br><br>
+                    <input type="text" value="Nom" class="h-[30px] text-[blue] pl-3 mr-[0px]"> <br><br>
+    
+                    <input type="text" value="mail" class="h-[30px] text-[blue] pl-3 mr-[0px]"> <br><br>
+    
+                    <button class="boutton_menu bg-[#069205] text-[#fff] text-[30px] font-[700] px-3 ">soumettre</button>
+    
+                </div>
+            </div>
+    
+        </div> <br>
+
+       
+    </div> 
+</div>
+</div><br>
+
+
+    <!-- footer -->
+<div class="footer bg-[#149B7D]">
+    <div class="contact flex justify-center ">
+        <li class="text-3xl mx-5  my-1"><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+        <li class="text-3xl mx-5  my-1"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="text-3xl mx-5  my-1"><a href=""><i class="fa-solid fa-phone"></i></a></li>
+    </div>
+</div>
+   
+    
+</body>
+</html>

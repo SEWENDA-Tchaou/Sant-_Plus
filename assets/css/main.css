@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cabin sans-serif;
+}
+
+/* navbar css */
+
+.contact{
+    width: 100%;
+    background-color: #149B7D;
+    
+}
+
+.td{
+    position:fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+
+.uu{
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+.menu_navbar .menu ul li a :hover{
+   background-color: #069205;
+   border-radius: 10px;
+}
+
+.menu_navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nom_entreprise{
+    font-size: 25px;
+    margin: 10px;
+    color:  #149B7D;
+} 
+
+.boutton_menu{
+    font-size: 25px;
+    margin: 10px;
+    padding: 3px;
+    border: none;
+}
+
+.get_start{
+    font-size: 25px;
+    margin: 10px;
+    padding: 3px;
+    border: none;
+}
+ul{
+    display: flex;
+}
+
+.image_page_acceuille{
+    background-image: url("/assets/images/materiel-medical_0.png");
+    width: 100%;
+    height: 87vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background_acceuil{
+    background-color: #12C698;
+    opacity: 67%;
+    width: 100%;
+    height: 87vh;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/* premiers cards css */
+.trois_cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 4%
+}
+
+.cards_1{
+    background-image: url("/assets/images/comprimer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px
+}
+
+.cards_2{
+    background-image: url("/assets/images/ambulance.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.cards_3{
+    background-image: url("/assets/images/bloq_operatoir.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.background_cards{
+    border-radius: 10px;
+    margin: 26px 26px;
+    height: 215px !important;
+}
+
+
+/* produits */
+
+.ZZZ_2, .vvvv_2, .vvvv_1, .get_start, .boutton_menu, .cardio,.dd, .cv, .cv_{
+    border-radius: 10px;
+    
+} 
+
+
+.cv, .cv_{
+
+    justify-content: space-around;
+}
+
+
+/* news letter et autres css */
+
+
+.n_3 input{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
